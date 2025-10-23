@@ -1,5 +1,5 @@
 def triangulo(a,b,c)
-    triangulo = ""
+    triangulo = 1
 
     # Para que três segmentos de reta formem um triângulo, a soma das medidas de dois deles deve ser sempre maior que a medida do terceiro. 
     if ((a + b) > c and (b + c) > a and (a + c) > b) and (a > 0 and b > 0 and c > 0)
@@ -20,9 +20,3 @@ def triangulo(a,b,c)
 
     return triangulo
 end
-
-a = gets.to_i
-b = gets.to_i
-c = gets.to_i
-
-puts triangulo(a,b,c)
